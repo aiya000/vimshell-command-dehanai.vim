@@ -5,7 +5,7 @@ set cpo&vim
 function! vimshell_command_dehanai#notfound(cmdline, context)
 	" notfound as error
 	let b:vimshell.system_variables['status'] = 'notfound'
-	normal! o!!!コマンドではない!!!
+	normal! o!!!コマンドではない。!!!
 	return a:cmdline
 endfunction
 
